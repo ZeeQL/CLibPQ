@@ -3,7 +3,8 @@
        align="right" width="128" height="128" />
 </h2>
 
-![Swift3](https://img.shields.io/badge/swift-3-blue.svg)
+![Swift4.2](https://img.shields.io/badge/swift-4.2-blue.svg)
+![Swift5](https://img.shields.io/badge/swift-5-blue.svg)
 ![tuxOS](https://img.shields.io/badge/os-tuxOS-green.svg?style=flat)
 ![macOS](https://img.shields.io/badge/os-macOS-green.svg?style=flat)
 
