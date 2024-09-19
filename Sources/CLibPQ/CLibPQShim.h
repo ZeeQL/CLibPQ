@@ -5,9 +5,12 @@
 #  include <libpq-fe.h>
 #else
 #  if defined(__APPLE__) && defined(__MACH__)
-     // this assumes brew
-//#    include "/usr/local/opt/libpq/include/libpq-fe.h"
-#    include "/opt/homebrew/include/libpq-fe.h"
+     // this assumes Homebrew
+#    ifdef __arm__
+#      include "/opt/homebrew/include/libpq-fe.h"
+#    else
+#      include "/usr/local/include/libpq-fe.h"
+#    endif
 #  else
 #    include "/usr/include/postgresql/libpq-fe.h"
 #  endif
