@@ -6,11 +6,7 @@
 #else
 #  if defined(__APPLE__) && defined(__MACH__)
      // this assumes Homebrew
-#    ifdef __arm__
-#      include "/opt/homebrew/include/libpq-fe.h"
-#    else
-#      include "/usr/local/include/libpq-fe.h"
-#    endif
+#    include "/opt/homebrew/include/libpq-fe.h"
 #  else
 #    include "/usr/include/postgresql/libpq-fe.h"
 #  endif
