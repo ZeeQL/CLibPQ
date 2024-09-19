@@ -6,7 +6,8 @@
 #else
 #  if defined(__APPLE__) && defined(__MACH__)
      // this assumes brew
-#    include "/usr/local/opt/libpq/include/libpq-fe.h"
+//#    include "/usr/local/opt/libpq/include/libpq-fe.h"
+#    include "/opt/homebrew/include/libpq-fe.h"
 #  else
 #    include "/usr/include/postgresql/libpq-fe.h"
 #  endif
